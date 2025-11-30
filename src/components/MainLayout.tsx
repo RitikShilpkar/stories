@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { Layout, LogOut, PlusSquare, Grid } from 'lucide-react';
+import { LogOut, PlusSquare, Grid } from 'lucide-react';
 import { clsx } from 'clsx';
 
 export const MainLayout: React.FC = () => {

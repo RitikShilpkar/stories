@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StoryElement, BackgroundConfig } from '../../hooks/useStoryEditor';
-import { Type, Image as ImageIcon, Smile, AlignLeft, AlignCenter, AlignRight, Bold, Italic, Underline, Trash2, Download, Save } from 'lucide-react';
+import { Type, AlignLeft, AlignCenter, AlignRight, Bold, Italic, Underline, Trash2, Download, Save } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { clsx } from 'clsx';
 
